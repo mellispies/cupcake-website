@@ -376,11 +376,27 @@ body {
 	color:  #FFE4C6;
 	border-color: none;
 	background: rgba(0,0,0,0.3);
-	transition: all 2s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 .contact-btn:hover {
-	background: #c9c1ac;
-	color: #D3325F;
-	border-color: #c9c1ac;
+	background: #E06F8F;
+	border-color: #E06F8F;
+	color: #FFE4C6;
+}
+
+
+/****** footer ******/
+
+#back-to-top {
+	background: #FFE4C6;
+	border-radius: 10px;
+	display: inline-block;
+	border: 2px solid #E06F8F;
+}
+
+.scrollTop {
+	position: fixed;
+	bottom: 70px;
+	right: 10px;
 }
