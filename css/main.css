@@ -168,7 +168,7 @@ body {
 /*******************navbar***************************/
 
 .navbar {
-	background: #FFE4C6;
+	background:  #ff99cc;
 	padding: 20px 20px;
 	transition: all 1s ease;
 }
@@ -228,8 +228,21 @@ body {
 	height: 3px;
 	margin: 5px;
 	background: #d3325f;
+	transition: all 0.5s ease;
 }
 
+
+.change .bar1 {
+	transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	transform: rotate(45deg) translate(-5px,-6px);
+}
 
 
 /*************** menu items ***************/
